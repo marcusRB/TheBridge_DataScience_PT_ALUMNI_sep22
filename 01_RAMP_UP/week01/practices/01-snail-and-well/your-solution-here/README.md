@@ -1,6 +1,54 @@
 # YOUR SOLUTION HERE
 
-Instrucciones para las prácticas
+#EJERCICIO 1
+altura=125
+a_diario=30
+r_nocturno=20
+
+dias=0
+distancia=0
+while distancia<altura:
+    distancia=distancia+a_diario
+    
+    if distancia<altura:
+        distancia=distancia-r_nocturno
+    
+    dias=dias+1
+    
+print('Dias =', dias)
+
+
+
+#BONUS
+altura=125
+avance_cm = [30, 21, 33, 77, 44, 45, 23, 45, 12, 34, 55]
+r_nocturno=20
+
+dias=0
+distancia=0
+i=0
+while distancia<altura:
+    distancia=distancia+avance_cm[i]
+    
+    if distancia<altura:
+        distancia=distancia-r_nocturno
+    i=i+1
+    dias=dias+1
+    
+print('Dias =', dias)
+print('Max desplaamiento =', max(avance_cm))
+print('Min desplaamiento =', min(avance_cm))
+
+
+suma=0
+cont=0
+for a in avance_cm:
+    suma=suma+a
+    cont=cont+1
+media=suma/cont
+print("Media de avance =", media)
+
+
 
 ## MAIN TASK
 - Actualiza tu repositorio remoto *upstream/master* sincronizado con el *original/master* que hiciste el fork
