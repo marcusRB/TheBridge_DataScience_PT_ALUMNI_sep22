@@ -21,3 +21,17 @@ La práctica será verificada y se dejará un feedback. Finalmente se enviará u
 
 según la situación que sea no se aceptará una **PULL REQUEST** para no alterar la estructura del repositorio original, por lo tanto se procederá con el cierre!
  
+## Practica de los duelistas
+gandalf = [10, 11, 13, 30, 22, 11, 10, 33, 22, 22]
+saruman = [23, 66, 12, 43, 12, 10, 44, 23, 12, 17]
+
+
+for i in range(len(gandalf)):
+ if saruman[i]>gandalf[i]:
+         print("saruman gana")
+ if saruman[i]<gandalf[i]:
+    print("gandalf gana")
+ else:
+    print("empate")
+
+## Nose porque en que me he equivocado pero el resultado no es correcto, he estado mirando en mil sitios y la lógica es así pero no me da bien los resultados 

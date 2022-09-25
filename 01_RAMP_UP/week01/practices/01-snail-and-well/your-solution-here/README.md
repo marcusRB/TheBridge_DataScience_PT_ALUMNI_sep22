@@ -21,3 +21,51 @@ La práctica será verificada y se dejará un feedback. Finalmente se enviará u
 
 según la situación que sea no se aceptará una **PULL REQUEST** para no alterar la estructura del repositorio original, por lo tanto se procederá con el cierre!
  
+##Bonus
+avance_cm=[30,21,33,77,44,45,23,45,12,55]
+
+min(avance_cm)
+
+max(avance_cm)
+
+sum(avance_cm)
+
+len(avance_cm)
+
+sum(avance_cm)/len(avance_cm)
+
+from math import sqrt
+from multiprocessing.resource_sharer import stop
+from unittest import result
+ 
+def media(avance_cm):
+  s = 0
+  for elemento in avance_cm:
+    s += elemento
+  return s / float(len(avance_cm))
+
+
+dias=0
+altura_maxima=125
+altura_inicial=0
+
+dias=0
+while (altura_inicial<altura_maxima):
+    dias+=30
+
+    while True:
+ if (altura_inicial<altura_maxima):
+    altura_inicial+=30
+    if (altura_inicial<altura_maxima):
+      altura_inicial+=-20
+      print(altura_inicial)
+      if(altura_inicial>=altura_maxima):
+        break;
+        print(altura_inicial)
+
+
+
+##No consigo meter la segunda variable de que cada vez que suba 30 y no haya salido del pozo reste 20
+ ## pero seguiria así, siempre que sume 30 y no supere la altura del pozo que le reste 20, una vez que la altura inicial sea mayor que la del pozo que rompa el bucle
+
+
