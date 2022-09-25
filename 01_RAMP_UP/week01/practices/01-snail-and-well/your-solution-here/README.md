@@ -45,23 +45,23 @@ def media(avance_cm):
   return s / float(len(avance_cm))
 
 
-dias=0
-altura_maxima=125
-altura_inicial=0
+altura_max = 125
+avance_diario = 30 
+retroceso_noche = -20 
+distancia_acumulada = 0
+dias = 0 
 
-dias=0
-while (altura_inicial<altura_maxima):
-    dias+=30
+while distancia_acumulada < altura_max:
+  distancia_acumulada += avance_diario
+  dias +=1
+  print(dias)
+  print(distancia_acumulada)
+while distancia_acumulada < altura_max:
+   distancia_acumulada += retroceso_noche
+   dias +=1
+   print(dias) 
+   print(distancia_acumulada)
 
-    while True:
- if (altura_inicial<altura_maxima):
-    altura_inicial+=30
-    if (altura_inicial<altura_maxima):
-      altura_inicial+=-20
-      print(altura_inicial)
-      if(altura_inicial>=altura_maxima):
-        break;
-        print(altura_inicial)
 
 
 

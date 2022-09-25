@@ -21,3 +21,9 @@ La práctica será verificada y se dejará un feedback. Finalmente se enviará u
 
 según la situación que sea no se aceptará una **PULL REQUEST** para no alterar la estructura del repositorio original, por lo tanto se procederá con el cierre!
  
+
+stops = [(10, 0), (4, 1), (3, 5), (3, 4), (5, 1), (1, 5), (5, 8), (4, 6), (2, 3)]
+len (stops)
+for stop in stops:
+    print(stop[0 + (-1)])
+    
