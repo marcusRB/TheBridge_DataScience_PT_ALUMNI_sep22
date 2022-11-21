@@ -389,3 +389,6 @@ profe*
 # Credenciales
 creds.py
 creds.json
+
+# Base de datos
+*.db
